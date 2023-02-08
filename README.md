@@ -20,4 +20,4 @@ Coming soon...
 
 ## Authors :black_nib:
 * **Vincent Obaro** <[Vincelogs](https://github.com/Vincelogs)>
-* **Naomi Ibe** <[]()>
+* **Naomi Ibe** <[Amarajah](https://github.com/Amarajah)>
