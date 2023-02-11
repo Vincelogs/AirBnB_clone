@@ -15,6 +15,7 @@ from models.place import Place
 from models.amenity import Amenity
 from models.review import Review
 
+
 class HBNBCommand(cmd.Cmd):
     """Console class."""
 
@@ -82,6 +83,7 @@ class HBNBCommand(cmd.Cmd):
                             dic_model = (dics[key])
                             model = eval(slash[0]+"(**dic_model)")
                             print(model)
+
     def do_destroy(self, line):
         """Deletes an instance based on the class name and id."""
         found = 0
@@ -248,6 +250,7 @@ class HBNBCommand(cmd.Cmd):
             cmds[cmd](linea)
         else:
             print("*** Unknown syntax:", line)
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
